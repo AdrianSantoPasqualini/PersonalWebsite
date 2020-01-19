@@ -100,7 +100,7 @@
             </section>
             <section id="languages">
                 <div id="lang-container">
-                    <h2>Languages</h2>
+                    <h2>Technical Skills</h2>
                     <div id="lang-slider">
                         <div id="carousel" class="lang-slide owl-carousel owl-theme">
                             <div><img src="assets/python.png" />
@@ -112,17 +112,26 @@
                             <div><img src="assets/c++.png" />
                                 <p>C++</p>
                             </div>
-                            <div><img src="assets/swift.png" />
-                                <p>Swift</p>
+                            <div><img src="assets/java.png" />
+                                <p>Java</p>
+                            </div>
+                            <div><img src="assets/react.png" />
+                                <p>React</p>
+                            </div>
+                            <div><img src="assets/nodejs.png" />
+                                <p>Node/Express.js</p>
                             </div>
                             <div><img src="assets/octave.png" />
                                 <p>Octave</p>
                             </div>
+                            <div><img src="assets/javascript.png" />
+                                <p>Javascript</p>
+                            </div>
+                            <div><img src="assets/swift.png" />
+                                <p>Swift</p>
+                            </div>
                             <div><img src="assets/processing.png" />
                                 <p>Processing 3</p>
-                            </div>
-                            <div><img src="assets/java.png" />
-                                <p>Java</p>
                             </div>
                             <div><img src="assets/html.png" />
                                 <p>HTML 5</p>
@@ -135,6 +144,9 @@
                             </div>
                             <div><img src="assets/racket.png" />
                                 <p>Racket</p>
+                            </div>
+                            <div><img src="assets/docker.png" />
+                                <p>Docker</p>
                             </div>
                         </div>
                     </div>
@@ -172,6 +184,71 @@
                             on
                             my Test and Cross Validation Sets. The value for the regularization term Lambda and the
                             dimension of the photo used were chosen based on the generated graphs to the left.
+                        </p>
+                    </div>
+                    <div id="rectWhite" class="rectangle"></div>
+                    <div id="proj">
+                        <div id="carousel" class="proj-slide owl-carousel owl-theme">
+                            <img src="assets/MPs3PP.png" />
+                            <img src="assets/NewsfeedPP.png" />
+                            <img src="assets/Bills1PP.png" />
+                            <img src="assets/MPs1PP.png" />
+                            <img src="assets/MPs2PP.png" />
+                            <img src="assets/MPs4PP.png" />
+
+                        </div>
+                    </div>
+
+                    <div id='projinfo'>
+                        <p class="date"> January 2020 - Present</p>
+
+                        <h3><a href="https://pocketparliament.ca">
+                                Pocket Parliament Web Application</a></h3>
+
+                        <p class="lang-proj">Language: Javascript, React, and CSS </p>
+                        <p>
+                            <a href="https://pocketparliament.ca">
+                                https://pocketparliament.ca
+                            </a>
+                        </p>
+                        <p>
+                            Pocket Parliament is a web application which displays Canadian parliament information taken from the parliament official website.
+                            It organizes the information more cleanly than the official website and allows users to search through recent events, bills, cabinet members and members of parliament.
+                        </p>
+                        <p>
+                            The web app uses existing APIs that expose the desired parliament data. Hence, the website updates dynamically as new parliament events happen and the APIs present new information.
+                        </p>
+                        <p>
+                            It is paired by the Pocket Parliament Android app which was developed by one of my colleagues.
+                        </p>
+                    </div>
+                    <div id="rectWhite" class="rectangle"></div>
+                    <div id="proj">
+                        <div id="carousel" class="proj-slide owl-carousel owl-theme">
+                            <img src="assets/SmartBrainPeople.png" />
+                            <img src="assets/SmartBrainPerson.png" />
+                            <img src="assets/SmartBrainSignIn.png" />
+                            <img src="assets/SmartBrainRegister.png" />
+                        </div>
+                    </div>
+
+                    <div id='projinfo'>
+                        <p class="date"> November 2019 - Present</p>
+                        <h3><a href="https://github.com/AdrianSantoPasqualini/SmartBrain-FaceLocationIdentifier">
+                                SmartBrain Face Location Identifier</a></h3>
+                        <p class="lang-proj">Language: Javascript, React, Node/Express.js, PostgreSQL, and CSS </p>
+                        <p>
+                            SmartBrain is a project I undertook to gain some exposure to front and back end web development.
+                        </p>
+                        <p>
+                            Users upload images to SmartBrain and it will outline locations in the images where people's faces are detected.
+                            For the detection, SmartBrain uploads the image to the Clarifai API and draws the appropriate boxes based on the response.
+                        </p>
+                        <p>
+                            Users are also able to register an account with SmartBrain, after which the number of searches they make is stored and each user is assigned a rank based on their number of searches.
+                        </p>
+                        <p>
+                            React and CSS are used to design and build the front end, while Node.js, Express.js, and PostgreSQL are used to manage the server and database to store registered accounts.
                         </p>
                     </div>
                     <div id="rectWhite" class="rectangle"></div>
@@ -226,8 +303,6 @@
                             <img src="assets/Cooldown.png" />
                             <img src="assets/Endgame.png" />
                             <img src="assets/Shot.png" />
-
-
                         </div>
                     </div>
 
@@ -352,10 +427,10 @@
                 loop: true,
                 margin: 10,
                 nav: true,
-                dots: false,
+                dots: true,
                 responsive: {
                     0: {
-                        items: 6
+                        items: 8
                     }
                 }
             });
